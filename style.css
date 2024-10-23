@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lexend Deca", serif;
+  font-optical-sizing: auto;
+  font-weight: 70;
+  font-style: normal;
+}
+
+h1 {
+  color: hsl(0, 0%, 95%);
+  font-family: "Big Shoulders Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+p {
+  color: hsl(0, 0%, 95%);
+}
+
+button {
+  border-color: hsl(0, 0%, 95%);
+  border-style: solid;
+  border-radius: 20px;
+  padding: 10px 20px;
+  background-color: hsl(0, 0%, 95%);
+  background: none;
+  color: white;
+}
+
+button:hover {
+  background-color: hsla(0, 0%, 100%, 0.5);
+}
+
+img {
+  width: 30%;
+}
+
+.firstContainer {
+  display: flex;
+  height: 100svh;
+  align-items: center;
+  justify-content: center;
+}
+
+.secondContainer {
+  display: flex;
+  background-color: grey;
+  height: 70svh;
+  width: 65%;
+  border-radius: 15px;
+}
+
+.sedans {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: hsla(31, 77%, 52%);
+  padding: 40px;
+}
+
+.suvs {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: hsla(184, 100%, 22%);
+  padding: 40px;
+}
+
+.luxury {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: hsla(179, 100%, 13%);
+  padding: 40px;
+}
